@@ -1,0 +1,48 @@
+@import url(../intro/__title/intro__title.css);
+@import url(../intro/__extr/intro__extr.css);
+@import url(../intro/__extr-text/intro__extr-text.css);
+@import url(../intro/__stats-list/intro__stats-list.css);
+@import url(../intro/__stats-list-item/intro__stats-list-item.css);
+@import url(../intro/__stats/intro__stats.css);
+@import url(../intro/__span-accent/intro__span-accent.css);
+.intro {
+  /* не уменьшать до 683 */
+  max-width: 984px;
+  padding-top: 80px;
+}
+
+@media (min-width: 1281px) {
+  .intro {
+    padding-top: 81px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .intro {
+    max-width: 100vw;
+    padding-left: 4.69%;
+    padding-right: 4.69%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .intro {
+    max-width: 100vw;
+    padding-left: 3.13%;
+    padding-right: 3.13%;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    max-width: 100vw;
+    padding: 64px 4.53% 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    max-width: 100vw;
+    padding: 64px 5% 0;
+  }
+}

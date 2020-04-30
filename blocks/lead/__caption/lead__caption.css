@@ -1,0 +1,45 @@
+.lead__caption {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-family: Inter, Arial, Calibri, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (min-width: 1281px) {
+  .lead__caption {
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lead__caption {
+    margin-top: 16px;
+    padding: 0 2.89%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .lead__caption {
+    margin-top: 16px;
+    padding: 0 3.13%;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__caption {
+    margin: 8px 0 0;
+    padding: 0 4.27%;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__caption {
+    padding: 0 5.00%;
+  }
+}

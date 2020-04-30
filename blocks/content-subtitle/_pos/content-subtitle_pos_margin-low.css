@@ -1,0 +1,19 @@
+.content-subtitle_pos_margin-low {
+  margin-top: 32px;
+}
+
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  .content-subtitle_pos_margin-low {}
+} */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .content-subtitle_pos_margin-low {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content-subtitle_pos_margin-low {
+    margin-top: 23px;
+  }
+}

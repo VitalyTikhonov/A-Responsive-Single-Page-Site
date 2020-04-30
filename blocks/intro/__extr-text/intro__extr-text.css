@@ -1,0 +1,33 @@
+.intro__extr-text {
+  max-width: 69.41%;
+  margin: 0 18px 0 0;
+  font-family: Inter, Arial, Calibri, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .intro__extr-text {
+    max-width: 74.41%;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .intro__extr-text {
+    max-width: 720px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__extr-text {
+    max-width: 100%;
+    margin: 0;
+    font-size: 16px;
+    line-height: 27px;
+  }
+}

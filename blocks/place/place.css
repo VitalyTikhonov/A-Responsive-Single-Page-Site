@@ -1,0 +1,52 @@
+@import url(../place/__title/place__title.css);
+@import url(../place/__website/place__website.css);
+@import url(../place/__url-heading/place__url-heading.css);
+@import url(../place/__url/place__url.css);
+@import url(../place/__image/place__image.css);
+@import url(../place/__paragraphs/place__paragraphs.css);
+@import url(../place/__paragraph/place__paragraph.css);
+.place {
+  padding-bottom: 81.5px;
+  display: grid;
+  /* grid-template-columns: 46.75% 49.19%; */
+  grid-template-columns: 46.75% auto;
+  row-gap: 54px;
+  column-gap: 4.07%;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .place {
+    /* padding: 0 4.69% 92px; */
+    padding-bottom: 92px;
+    /* grid-template-columns: 47.41% 49.19%; */
+    grid-template-columns: 47.41% auto;
+    row-gap: 46px;
+    column-gap: 3.45%;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 768px) {
+  .place {
+    padding: 0 3.13% 92.5px;
+    grid-template-columns: 47.22% auto;
+    row-gap: 39px;
+    column-gap: 3.89%;
+  }
+}
+
+@media (max-width: 550px) {
+  .place {
+    display: block;
+    padding-bottom: 64.5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    padding-bottom: 69.5px;
+  }
+}

@@ -1,0 +1,27 @@
+.menu__optionlist {
+  margin: auto 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  .menu__optionlist {}
+} */
+
+/* @media (min-width: 426px) and (max-width: 768px) {
+  .menu__optionlist {}
+} */
+
+@media (min-width: 426px) and (max-width: 707px) {
+  .menu__optionlist {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .menu__optionlist {
+    display: flex;
+    flex-direction: column;
+  }
+}

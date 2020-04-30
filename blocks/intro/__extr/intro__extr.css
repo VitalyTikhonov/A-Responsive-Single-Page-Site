@@ -1,0 +1,37 @@
+.intro__extr {
+  padding-top: 38px;
+  padding-bottom: 17px;
+  display: flex;
+}
+
+@media (min-width: 1281px) {
+  .intro__extr {
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .intro__extr {
+    padding-top: 37px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .intro__extr {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro__extr {
+    padding-top: 29px;
+    padding-bottom: 34px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__extr {
+    padding-top: 35px;
+    padding-bottom: 36px;
+  }
+}

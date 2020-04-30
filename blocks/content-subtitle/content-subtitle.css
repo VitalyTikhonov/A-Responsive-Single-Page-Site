@@ -1,0 +1,36 @@
+@import url(../content-subtitle/_centering/content-subtitle_centering.css);
+@import url(../content-subtitle/_pos/content-subtitle_pos_margin-high.css);
+@import url(../content-subtitle/_pos/content-subtitle_pos_margin-low.css);
+.content-subtitle {
+  margin-bottom: 0;
+  max-width: 54.05%;
+  font-family: Inter, Arial, Calibri, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content-subtitle {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .content-subtitle {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content-subtitle {
+    max-width: 100%;
+    /* padding: 0 4.27% 0; */
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

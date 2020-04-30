@@ -1,0 +1,28 @@
+.video__subtitle {
+  margin: 9px 0 0;
+  /* position: relative; */
+  z-index: 3;
+  font-family: Inter, Arial, Calibri, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+/*
+@media (min-width: 769px) and (max-width: 1024px) {
+  .video__subtitle {}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .video__subtitle {}
+} */
+
+@media (max-width: 425px) {
+  .video__subtitle {
+    margin: 5px 0 0;
+    font-size: 14px;
+    line-height: 15px;
+  }
+}

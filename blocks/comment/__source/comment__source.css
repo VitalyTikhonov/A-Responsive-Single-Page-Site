@@ -1,0 +1,25 @@
+.comment__source {
+  font-family: Inter, Arial, Calibri, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+/*
+@media (min-width: 769px) and (max-width: 1024px) {
+  .comment__source {}
+} */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .comment__source {
+    order: 2;
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 425px) {
+  .comment__source {
+    order: 2;
+  }
+}

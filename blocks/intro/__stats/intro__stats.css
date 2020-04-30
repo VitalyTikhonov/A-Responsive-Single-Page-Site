@@ -1,0 +1,23 @@
+.intro__stats {
+  margin: 0;
+  font-family: Inter, Arial, Calibri, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  .intro__stats {}
+} */
+
+/* @media (min-width: 426px) and (max-width: 768px) {
+  .intro__stats {}
+} */
+
+@media (max-width: 425px) {
+  .intro__stats {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

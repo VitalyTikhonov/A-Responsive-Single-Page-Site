@@ -1,0 +1,38 @@
+.comment__image {
+  max-width: 7.58vw;
+  border-radius: 50%;
+}
+
+@media (min-width: 1281px) {
+  .comment__image {
+    width: 6.74vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .comment__image {
+    max-width: 9.47vw;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .comment__image {
+    order: 1;
+    max-width: 12.58vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .comment__image {
+    order: 1;
+    margin: 14px;
+    max-width: 25.5vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .comment__image {
+    margin: 16px;
+    max-width: 29vw;
+  }
+}

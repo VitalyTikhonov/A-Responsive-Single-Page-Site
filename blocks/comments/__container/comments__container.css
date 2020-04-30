@@ -1,0 +1,33 @@
+.comments__container {
+  margin: 0 auto;
+  padding-top: 63px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 382px));
+  justify-content: center;
+  gap: 19px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .comments__container {
+    grid-template-columns: repeat(auto-fit, minmax(auto, 296px));
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .comments__container {
+    padding-top: 33px;
+  }
+}
+
+@media (max-width: 425px) {
+  .comments__container {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .comments__container {
+    gap: 29px;
+  }
+}

@@ -1,0 +1,30 @@
+.photo-grid__pic {
+  width: 100%;
+  object-fit: cover;
+  max-height: 188px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .photo-grid__pic {
+    min-height: 200px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .photo-grid__pic {
+    min-height: 234px;
+  }
+}
+
+@media (max-width: 425px) {
+  .photo-grid__pic {
+    min-height: 232px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo-grid__pic {
+    width: 90vw;
+    min-height: 192px;
+  }
+}

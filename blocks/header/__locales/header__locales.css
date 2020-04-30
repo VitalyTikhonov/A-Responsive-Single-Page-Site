@@ -1,0 +1,7 @@
+.header__locales {
+  margin-top: 1.8em;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
