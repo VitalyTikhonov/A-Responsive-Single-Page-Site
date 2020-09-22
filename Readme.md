@@ -2,18 +2,18 @@
 ***For English scroll down***
 
 Учебное задание по верстке простой адаптивной страницы
-## Размещение
+#### Размещение
 https://vitalytikhonov.github.io/A-Responsive-Single-Page-Site/
-## Используемые технологии
+#### Используемые технологии
 - HTML
 - CSS
 - медиазапросы в CSS
 ***
-# My first responsive web page
+# My first responsive web page (EN)
 An academic project on coding a simple responsive web-page
-## Access
+#### Access
 https://vitalytikhonov.github.io/A-Responsive-Single-Page-Site/
-## Technologies used
+#### Technologies used
 - HTML
 - CSS
 - CSS media queries
