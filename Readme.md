@@ -8,6 +8,7 @@ https://vitalytikhonov.github.io/A-Responsive-Single-Page-Site/
 - HTML
 - CSS
 - медиазапросы в CSS
+###### В рамках курса "Веб-разработка" в Яндекс.Практикуме
 ***
 # My first responsive web page (EN)
 An academic project on coding a simple responsive web-page
@@ -17,3 +18,4 @@ https://vitalytikhonov.github.io/A-Responsive-Single-Page-Site/
 - HTML
 - CSS
 - CSS media queries
+###### As part of the Web-Development course at Yandex.Praktikum
